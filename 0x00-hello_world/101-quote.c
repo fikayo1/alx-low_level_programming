@@ -9,7 +9,7 @@
 
 int main(void)
 {
-  char str[];
+  char str[200];
 
 strcpy(str, "echo and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 system(str);
