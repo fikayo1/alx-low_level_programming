@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main: - prints string 
+ * main: - prints string
  *
  *Return: Always 0 (Success)
  */
 
 
-int main(void) /*prints str*/
+int main(void) /*main: -prints str*/
 {
 char str[150];
 
