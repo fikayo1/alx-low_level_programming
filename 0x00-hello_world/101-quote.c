@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#incl9ude <string.h>
 #include <stdlib.h>
 /**
  * main - prints a string
@@ -9,9 +9,6 @@
 
 int main(void)
 {
-  char str[200];
-
-strcpy(str, "echo and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-system(str);
+write(1, "echo and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 200);
 return (1);
 }
