@@ -9,6 +9,6 @@
 
 int main(void)
 {
-fwrite(1, "echo and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 200);
+fwrite(1, "echo and that piece of art is useful - Dora Korpar, 2015-10-19\n", 200);
 return (1);
 }
