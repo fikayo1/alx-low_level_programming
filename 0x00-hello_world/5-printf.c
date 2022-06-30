@@ -12,6 +12,6 @@ int main(void)
 char str[200];
 
 strcpy(str, "with proper grammer, but the outcome is a piece of art,");
- printf ("%c\n",str);
+ printf ("%s\n",str);
  return (0);
 }
