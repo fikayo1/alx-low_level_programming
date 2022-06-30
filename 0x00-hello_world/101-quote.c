@@ -9,7 +9,7 @@
 
 int main(void)
 {
-  char str[200];
+char str[200];
 
 strcpy(str, "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 printf("%s\n", str);
