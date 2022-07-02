@@ -13,10 +13,9 @@ char alp = 'a';
 while (alp < 'z')
 {
 printf("%c", alp);
-printf("\n");
 alp++;
 }
-
+printf("\n");
 putchar(alp);
 return (0);
 }
