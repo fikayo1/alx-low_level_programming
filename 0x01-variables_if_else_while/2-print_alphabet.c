@@ -8,9 +8,9 @@
 
 int main(void)
 {
-  char alp[27];
+  char alp = "a..z";
 
-  strcpy(alp, "a..z");
+
   putchar(alp);
-  return(0);
+  return (0);
 }
