@@ -18,7 +18,7 @@ a++;
 }
 while (alp <= 'f')
 {
-putchar(alp + '0');
+putchar(alp);
 alp++;
 }
 putchar('\n');
