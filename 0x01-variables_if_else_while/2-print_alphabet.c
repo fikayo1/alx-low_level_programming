@@ -8,7 +8,7 @@
 
 int main(void)
 {
-  char alp = "a..z";
+  char alp = "az";
 
 
   putchar(alp);
