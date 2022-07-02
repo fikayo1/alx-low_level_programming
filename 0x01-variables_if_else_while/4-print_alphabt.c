@@ -16,4 +16,5 @@ if (alp != 'q' && alp != 'e')
 putchar(alp);
 alp++;
 }
+return (0);
 }
