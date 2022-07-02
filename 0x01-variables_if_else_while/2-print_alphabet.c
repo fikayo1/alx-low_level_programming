@@ -9,10 +9,11 @@
 int main(void)
 {
 char alp = 'a';
- 
-while(alp < 'z')
+
+while (alp < 'z')
 {
-printf("%c\n", alp);
+printf("%c", alp);
+printf("\n")
 alp++;
 }
 
