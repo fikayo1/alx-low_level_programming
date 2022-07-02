@@ -15,7 +15,7 @@ while (a < 10)
 putchar(a + '0');
 a++;
 putchar(',');
-putchar(' ')
+putchar(' ');
 }
 
 putchar('\n');
