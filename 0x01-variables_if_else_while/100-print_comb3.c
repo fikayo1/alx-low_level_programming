@@ -17,7 +17,7 @@ if (a >= 1 && a <=9)
 a = '0' + a;
 if (first != a % 10)
 {
-putchar(a);
+putchar(a + '0');
 putchar(',');
 putchar(' ');
 }
