@@ -8,19 +8,20 @@
 
 int main(void)
 {
-  int a = 0;
-  
+  int a = 0, first;
 while (a < 100)
 {
+if (a > 10)
+ first = a / 10
 if (a >= 1 && a <=9)
 a = '0' + a;
-if (a[0] != a[1])
+if (first != a % 10)
 {
 putchar(a);
-putchar(',')
-putchar(' ')
+putchar(',');
+putchar(' ');
 }
 }
-  putchar('\n');
-  return (0);
+putchar('\n');
+return (0);
 }
