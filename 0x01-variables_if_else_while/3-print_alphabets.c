@@ -17,7 +17,7 @@ alp++;
 }
 while (ALP <= 'Z')
 {
-putchar(ALO);
+putchar(ALP);
 ALP++;
 }
   
