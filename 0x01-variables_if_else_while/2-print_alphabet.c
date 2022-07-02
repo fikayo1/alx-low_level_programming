@@ -8,13 +8,14 @@
 
 int main(void)
 {
-  char alp ='a';
-  while(alp < 'z')
-    {
-      printf("%c", alp);
-      alp++;
-    }
+char alp = 'a';
+ 
+while(alp < 'z')
+{
+printf("%c\n", alp);
+alp++;
+}
 
-  putchar(alp);
-  return (0);
+putchar(alp);
+return (0);
 }
