@@ -20,7 +20,6 @@ while (ALP <= 'Z')
 putchar(ALP);
 ALP++;
 }
-  
 
 putchar('\n');
 return (0);
