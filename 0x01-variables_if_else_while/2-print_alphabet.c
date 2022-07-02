@@ -11,7 +11,7 @@ int main(void)
   char alp ='a';
   while(alp < 'z')
     {
-      putchar("%c", alp);
+      printf("%c", alp);
       alp++;
     }
 
