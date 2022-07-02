@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+
 /**
  * main - prints out the alphabets in lowercase
  *
@@ -8,8 +8,12 @@
 
 int main(void)
 {
-  char alp = "az";
-
+  char alp ='a';
+  while(alp < 'z')
+    {
+      putchar("%c", alp);
+      alp++;
+    }
 
   putchar(alp);
   return (0);
