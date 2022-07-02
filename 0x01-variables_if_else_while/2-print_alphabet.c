@@ -15,7 +15,7 @@ while (alp < 'z')
 printf("%c", alp);
 alp++;
 }
-printf("\n");
-putchar(alp);
+
+printf("\n")
 return (0);
 }
