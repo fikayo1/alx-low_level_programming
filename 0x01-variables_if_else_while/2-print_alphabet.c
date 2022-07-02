@@ -10,7 +10,7 @@ int main(void)
 {
   char alp[27];
 
-  strcpy(alp, [a..z]);
+  strcpy(alp, "a..z");
   putchar(alp);
   return(0);
 }
