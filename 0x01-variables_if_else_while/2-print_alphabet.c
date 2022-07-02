@@ -13,7 +13,7 @@ char alp = 'a';
 while (alp < 'z')
 {
 printf("%c", alp);
-printf("\n")
+printf("\n");
 alp++;
 }
 
