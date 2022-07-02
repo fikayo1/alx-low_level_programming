@@ -10,7 +10,7 @@ int main(void)
 {
 char alp = 'a';
 
-while (alp < 'z')
+while (alp <= 'z')
 {
 printf("%c", alp);
 alp++;
