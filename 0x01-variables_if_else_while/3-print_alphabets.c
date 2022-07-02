@@ -10,5 +10,6 @@ int main(void)
 {
   char let = 'b';
 
-  putchar(let);
+putchar(let);
+return (0);
 }
