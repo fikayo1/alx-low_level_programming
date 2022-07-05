@@ -7,9 +7,9 @@
  *Return: on success 0
  */
 
-int main(void)
+int printsomething(void)
 {
 _putchar("o");
-printf("\n");
+_putchar("\n");
 return (0);
 }
