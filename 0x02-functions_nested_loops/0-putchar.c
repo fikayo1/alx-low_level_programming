@@ -9,8 +9,7 @@
 
 int main(void)
 {
-char c = "_putchar";
-_putchar(c);
+_putchar(c + "0");
 printf("\n");
 return (0);
 }
