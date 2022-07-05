@@ -10,6 +10,5 @@
 int printsomething(void)
 {
 _putchar("o");
-_putchar("\n");
 return (0);
 }
