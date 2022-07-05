@@ -9,7 +9,7 @@
 
 int main(void)
 {
-_putchar("0");
+_putchar("1");
 printf("\n");
 return (0);
 }
