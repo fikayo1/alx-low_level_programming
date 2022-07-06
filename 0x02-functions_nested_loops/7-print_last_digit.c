@@ -21,5 +21,5 @@ j = j % 10;
 last = j;
 }
 }
-return (last)
+return (last);
 }
