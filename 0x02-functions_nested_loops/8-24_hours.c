@@ -19,5 +19,6 @@ _putchar(hu + '0');
 _putchar(':');
 _putchar(mt + '0');
 _putchar(mu + '0');
+_putchar('\n')
 }
 }
