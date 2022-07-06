@@ -14,11 +14,14 @@ int mu = 0;
 
 for (mu = 0; mu < 10; mu++)
 {
+for (mt = 0; mt < 10; mt++)
+{
 _putchar(ht + '0');
 _putchar(hu + '0');
 _putchar(':');
 _putchar(mt + '0');
 _putchar(mu + '0');
 _putchar('\n');
+}
 }
 }
