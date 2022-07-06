@@ -11,10 +11,13 @@ int ht = 0;
 int hu = 0;
 int mt = 0;
 int mu = 0;
- 
+
+for (mu = 0; mu < 10; mu++)
+{
 _putchar(ht + '0');
 _putchar(hu + '0');
 _putchar(':');
 _putchar(mt + '0');
 _putchar(mu + '0');
+}
 }
