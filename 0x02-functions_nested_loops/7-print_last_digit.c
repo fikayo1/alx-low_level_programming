@@ -21,5 +21,6 @@ j = j % 10;
 last = j;
 }
 }
+_putchar(last); 
 return (last);
 }
