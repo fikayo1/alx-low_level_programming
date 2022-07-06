@@ -6,7 +6,7 @@ int i = 0;
 while (i < 10)
 {
 int num;
-for (num = 97; num < 123; i++)
+for (num = 97; num < 123; num++)
 {
 _putchar(num);
 }
