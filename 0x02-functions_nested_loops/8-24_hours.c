@@ -12,11 +12,11 @@ int hu = 0;
 int mt = 0;
 int mu = 0;
 
-for (ht = 0; ht < 10; ht++)
+for (ht = 0; ht < 7; ht++)
 {
-for (hu = 0; hu < 10; hu++)
+for (hu = 0; hu < 7; hu++)
 {
-for (mt = 0; mt < 10; mt++)
+for (mt = 0; mt < 7; mt++)
 {
 for (mu = 0; mu < 10; mu++)
 {
