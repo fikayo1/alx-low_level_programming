@@ -12,7 +12,7 @@ int print_last_digit(int j)
 {
 int last;
 if (j == INT_MIN)
-j = INT_MAX;
+j = INT_MIN + (-2 * INT_MIN);
 if (j < 0)
 {
 j = j + (-2 * j);
