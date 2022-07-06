@@ -12,9 +12,9 @@ int hu = 0;
 int mt = 0;
 int mu = 0;
 
-for (mu = 0; mu < 10; mu++)
-{
 for (mt = 0; mt < 10; mt++)
+{
+for (mu = 0; mu < 10; mu++)
 {
 _putchar(ht + '0');
 _putchar(hu + '0');
