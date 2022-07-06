@@ -11,8 +11,8 @@
 
 int _isalpha(int c)
 {
-if (isalpha(c) == 1)
-return (0);
-else
+if (isalpha(c) == 0)
 return (1);
+else
+return (0);
 }
