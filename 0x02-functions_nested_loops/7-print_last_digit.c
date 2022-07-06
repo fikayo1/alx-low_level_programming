@@ -11,6 +11,10 @@
 int print_last_digit(int j)
 {
 int last;
+if (j < 0)
+{
+j = j + (-2 * j);
+}
 if (j < 10)
 last = j;
 else
