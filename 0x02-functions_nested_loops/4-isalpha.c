@@ -4,7 +4,7 @@
 /**
  * _isalpha - checks for alphabetic character
  *
- * @c: a chacter 
+ * @c: a chacter
  *
  *Return: 1 if character is an alphabet and 0 if it is not
  */
@@ -12,7 +12,7 @@
 int _isalpha(int c)
 {
 if (isalpha(c) == 1)
-return (1);
-else
 return (0);
+else
+return (1);
 }
