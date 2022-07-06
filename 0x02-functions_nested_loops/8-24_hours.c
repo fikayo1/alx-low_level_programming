@@ -20,7 +20,7 @@ int mu = 0;
        hu = 0;
      if (mt > 9)
        mt = 0;
-     for (mu = 0; i < 10; mu++)
+     for (mu = 0; mu < 10; mu++)
        _putchar(mu + '0');
    }
 _putchar(ht + '0');
