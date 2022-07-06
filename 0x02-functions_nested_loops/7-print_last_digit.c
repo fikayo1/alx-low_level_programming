@@ -18,7 +18,8 @@ else
 while (j > 10)
 {
 j = j % 10;
-last = j
+last = j;
 }
 }
+return (last)
 }
