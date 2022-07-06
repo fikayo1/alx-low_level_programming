@@ -3,7 +3,7 @@
 /**
  * print_last_digit - prints the last digit of a number
  *
- *@j: the number 
+ *@j: the number
  *
  *Return: the value of the last digit
  */
@@ -21,6 +21,6 @@ j = j % 10;
 last = j;
 }
 }
-_putchar(last); 
+_putchar(last + '0');
 return (last);
 }
