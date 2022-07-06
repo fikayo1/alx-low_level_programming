@@ -11,6 +11,6 @@ for (num = 97; num < 123; i++)
 _putchar(num);
 }
 _putchar('\n');
-i++
- }
+i++;
+}
 }
