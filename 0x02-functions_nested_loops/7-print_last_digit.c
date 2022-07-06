@@ -11,6 +11,8 @@
 int print_last_digit(int j)
 {
 int last;
+if (j == INT_MIN)
+j = INT_MAX;
 if (j < 0)
 {
 j = j + (-2 * j);
