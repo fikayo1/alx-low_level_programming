@@ -1,13 +1,20 @@
 #include "main.h"
 
 /**
- * printsomething - print to the stdout
+ * _putchar(char c) - print to the stdout
  *
  *Return: on success 0
  */
 
-int printsomething(void)
+int _putchar(char c)
 {
-_putchar(97);
-return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 }
