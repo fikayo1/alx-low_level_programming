@@ -14,7 +14,7 @@ int mu = 0;
 
 for (ht = 0; ht < 3; ht++)
 {
-for (hu = 0; hu < 6; hu++)
+for (hu = 0; hu < 4; hu++)
 {
 for (mt = 0; mt < 6; mt++)
 {
