@@ -22,8 +22,10 @@ int mu = 0;
        mt = 0;
    }
  for (mu = 0; mu < 10; mu++)
+   {
   _putchar(mu + '0');
  _putchar('\n');
+   }
 _putchar(ht + '0');
 _putchar(hu + '0');
 _putchar(':');
