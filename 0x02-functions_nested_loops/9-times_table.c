@@ -15,7 +15,7 @@ for (k = 0; k < 10; k++)
 {
 for (i = 0; i < 10; i++)
 {
-printf("%d", i * k);
+_putchar(i * k + '0');
 if (i < 9)
 {
 _putchar(',');
