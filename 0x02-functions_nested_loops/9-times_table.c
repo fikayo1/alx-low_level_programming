@@ -14,7 +14,6 @@ for (k = 0; k < 10; k++)
 {
 for (i = 0; i < 10; i++)
 {
-i = i +2;
 _putchar(i + '0');
 if (i < 9)
 {
