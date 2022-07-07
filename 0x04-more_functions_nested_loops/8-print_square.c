@@ -3,9 +3,8 @@
 /**
  * print_square - prints a square
  *
- *@size: size of the square
- *@i: size for lenght
- *@j: size for width
+ *@size: size of the squuare
+ *
  */
 
 void print_square(int size)
