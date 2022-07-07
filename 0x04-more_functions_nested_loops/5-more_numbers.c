@@ -15,6 +15,7 @@ for (j = 0; j < 15; j++)
 {
 _putchar(j + '0');
 }
+if (i < 10)
 _putchar('\n');
 }
 }
