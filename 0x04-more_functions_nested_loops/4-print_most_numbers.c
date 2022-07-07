@@ -10,7 +10,7 @@ int i;
 
 for (i = 0; i < 10; i++)
 {
-if (i != 4 || i 1= 2)
+if (i != 4 || i != 2)
 _putchar(i + '0');
 }
 _putchar('\n');
