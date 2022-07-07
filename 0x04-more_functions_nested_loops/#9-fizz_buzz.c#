@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * fizz_buzz - print numbers
  */
 
-void fizz_buzz(void)
+void fi(void)
 {
 int i;
 
