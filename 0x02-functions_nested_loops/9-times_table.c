@@ -14,7 +14,7 @@ for (k = 0; k < 10; k++)
 {
 for (i = 0; i < 10; i++)
 {
-_putchar(i + '0');
+_putchar(i*0 + '0');
 if (i < 9)
 {
 _putchar(',');
