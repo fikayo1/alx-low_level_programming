@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include "main.h"
+
 
 /**
- * fizz_buzz - print numbers
+ * main - print numbers
+ *Return: 0 on success
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 int i;
 
@@ -20,4 +21,6 @@ printf("Buzz\t");
 else
 printf("%d\t", i);
 }
+printf("\n");
+return (0);
 }
