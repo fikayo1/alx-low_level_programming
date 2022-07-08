@@ -16,7 +16,7 @@ for (i = 1; i <= size; i++)
 {
 for (j = 1; j <= i; j++)
 {
-if (j = i)
+if (j == i)
 {
 _putchar('#');
 }
