@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * more_numbers - prints 10 times the numbers from 0 - 14
  */
@@ -8,6 +8,7 @@ void more_numbers(void)
 {
 char i;
 char j;
+char n;
 
 for (i = 0; i < 10; i++)
 {
@@ -23,6 +24,7 @@ else
 _putchar(j + '0');
 }
 }
-_putchar('\n');
+n = '\n';
+write(1, &n, 1);
 }
 }
