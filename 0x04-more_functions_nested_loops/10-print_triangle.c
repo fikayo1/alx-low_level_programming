@@ -14,12 +14,16 @@ if (size > 0)
 {
 for (i = 1; i <= size; i++)
 {
-for (j = 1; j <= i; i++)
+for (j = 1; j <= i; j++)
 {
 if (j = i)
+{
 _putchar('#');
+}
 else
+{
 _putchar(' ');
+}
 }
 }
 }
