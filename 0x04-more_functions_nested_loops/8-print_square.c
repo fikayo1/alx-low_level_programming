@@ -15,7 +15,7 @@ int j;
 {
 _putchar('\n');
 }
- else
+else
 {
 for (j = size; j > 0; j--)
 {
