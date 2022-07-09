@@ -8,12 +8,12 @@
 void print_number(int n)
 {
 int  y;
- 
+
 if (n > 9 && n < 19)
 {
 while (n > 9)
 {
-  n = n % 10;
+n = n % 10;
 }
 _putchar(1 + '0');
 _putchar(n + '0');
