@@ -14,17 +14,11 @@ if (size > 0)
 {
 for (i = 1; i <= size; i++)
 {
-for (j = 1; j <= i; j++)
-{
-if (j == i)
+for (j = size; j > 0; j--)
 {
 _putchar('#');
 }
-else
-{
-_putchar(' ');
-}
-}
+_putchar('\n');
 }
 }
 else
