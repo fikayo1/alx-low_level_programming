@@ -32,6 +32,10 @@ _putchar(9 + '0');
 _putchar(n + '0');
 }
 }
+ else
+{
+_putchar(y);
+}
 else
 {
 _putchar(n + '0');
