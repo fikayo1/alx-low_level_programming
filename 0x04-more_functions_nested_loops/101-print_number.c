@@ -31,10 +31,10 @@ n = y % 10;
 _putchar(9 + '0');
 _putchar(n + '0');
 }
-}
- else
+else
 {
-_putchar(y);
+_putchar(y + '0');
+}
 }
 else
 {
