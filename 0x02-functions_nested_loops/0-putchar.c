@@ -3,10 +3,11 @@
 /**
  * printsomething - print to the stdout
  *
- *Return: on success 0
+ * main - check the code
+ *
  */
 
-int printsomething(void)
+void printsomething(void)
 {
 _putchar('_');
 _putchar('p');
@@ -17,5 +18,18 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-return (0);
+
+}
+
+
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+  printsomething();
+  return (0);
 }
