@@ -10,7 +10,7 @@
  */
 
 /**
- *checker - checks to print num
+ * checker - checks to print num
  */
 
 void checker(int mul, int i, int k)
