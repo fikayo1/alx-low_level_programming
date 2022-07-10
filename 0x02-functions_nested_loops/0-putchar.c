@@ -30,6 +30,6 @@ _putchar('\n');
  */
 int main(void)
 {
-  printsomething();
-  return (0);
+printsomething();
+return (0);
 }
