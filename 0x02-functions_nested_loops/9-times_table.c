@@ -3,10 +3,14 @@
 
 /**
  *times_table - prints the 9 times tables, starting with 0
- *checker - checks to print the num
+ * checker - checks to print the num
  *@mul: multiplication
  *@i: i i guess lol
  *@k: k i guess
+ */
+
+/**
+ *checker - checks to print num
  */
 
 void checker(int mul, int i, int k)
