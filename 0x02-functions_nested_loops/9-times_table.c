@@ -9,10 +9,6 @@
  *@k: k i guess
  */
 
-/**
- * checker - checks to print num
- */
-
 void checker(int mul, int i, int k)
 {
 if (mul < 10)
