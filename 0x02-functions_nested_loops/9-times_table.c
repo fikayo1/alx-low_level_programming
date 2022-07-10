@@ -10,8 +10,15 @@ void checker(int mul, int i, int k)
 {
   if (mul < 10)
     {
+      if ((i * k) == 0 && k == 0)
+	{
+	  _putchar(i * k + '0');
+	}
+      else
+	{
       _putchar(' ');
       _putchar(i * k + '0');
+	}
     }
   else if (mul >= 10 && mul < 20)
     {
