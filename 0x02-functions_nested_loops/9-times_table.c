@@ -10,7 +10,7 @@ void checker(int mul, int i, int k)
 {
   if (mul < 10)
     {
-      if ((i * k) == 0 && k == 0)
+      if ((i * k) == 0 && i == 0)
 	{
 	  _putchar(i * k + '0');
 	}
