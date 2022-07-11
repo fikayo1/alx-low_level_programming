@@ -1,8 +1,8 @@
 #include "main.h"
  /**
-  * print_triangle - prints triangle
+  * print_triangle - prints a triangle with the # symbol
   * @size: print size
-  * 
+  *
   */
 
 void print_triangle(int size)
