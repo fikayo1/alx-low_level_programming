@@ -17,7 +17,7 @@ for (k = 0; k < 10; k++)
 for (i = 0; i < 10; i++)
 {
 mul = i * k;
- if (mul / 10 == 0)
+ if ((mul / 10) == 0)
    {
      if (i == 0)
        {
@@ -36,8 +36,8 @@ mul = i * k;
    }
  else
    {
-     _putchar(',');
-     _putchar(' ');
+     _putchar((c / 10) + '0');
+     _putchar((c % 10) + '0');
    }
 if (i < 9)
 {
