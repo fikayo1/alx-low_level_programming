@@ -36,8 +36,8 @@ mul = i * k;
    }
  else
    {
-     _putchar((c / 10) + '0');
-     _putchar((c % 10) + '0');
+     _putchar((mul / 10) + '0');
+     _putchar((mul % 10) + '0');
    }
 if (i < 9)
 {
