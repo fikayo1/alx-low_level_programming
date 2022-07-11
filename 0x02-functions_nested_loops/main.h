@@ -11,3 +11,4 @@ void jack_bauer(void);
 int add(int i, int j);
 void times_table(void);
 void checker(int mul, int i, int k);
+void print_to_98(int n);
