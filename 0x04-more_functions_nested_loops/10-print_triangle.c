@@ -1,8 +1,11 @@
 #include "main.h"
  /**
-  * print_triangle - prints a triangle with the # symbol
-  * @size: print size
+  * print_triangle - Entry point
   *
+  * Description: prints a triangle
+  *
+  *@size: number
+  *Return: Always 0 () Succes
   */
 
 void print_triangle(int size)
