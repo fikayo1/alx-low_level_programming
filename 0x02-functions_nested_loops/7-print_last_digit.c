@@ -14,7 +14,7 @@ int last;
 
 if (j < 0)
 {
-j = j + (-2 * j);
+j = -1 * (j % 10);
 }
 if (j < 10)
 last = j;
