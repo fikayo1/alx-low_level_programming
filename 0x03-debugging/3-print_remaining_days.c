@@ -20,7 +20,7 @@ day++;
 }
 else if (month == 3 && day == 60)
 {
-day++
+day++;
 }
 
 printf("Day of the year: %d\n", day);
