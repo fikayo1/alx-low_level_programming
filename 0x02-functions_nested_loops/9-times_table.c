@@ -30,7 +30,7 @@ mul = i * k;
        }
      if (i < 9)
        {
-	 
+	 _putchar(',');	 
 	 _putchar(' ');
 	   }
    }
@@ -41,7 +41,7 @@ mul = i * k;
    }
 if (i < 9)
 {
-_putchar(',');
+
 _putchar(' ');
 }
 }
