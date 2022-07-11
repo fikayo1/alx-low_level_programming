@@ -17,31 +17,27 @@ for (k = 0; k < 10; k++)
 for (i = 0; i < 10; i++)
 {
 mul = i * k;
- if ((mul / 10) == 0)
-   {
-     if (i == 0)
-       {
-	 _putchar('0');
-       }
-     if (i != 0)
-       {
-	 _putchar(' ');
-	 _putchar((mul % 10 + '0'));
-       }
-     /* if (i < 9)
-       {
-	 _putchar(',');	 
-	 _putchar(' ');
-	 }*/
-   }
- else
-   {
-     _putchar((mul / 10) + '0');
-     _putchar((mul % 10) + '0');
-   }
+if ((mul / 10) == 0)
+{
+if (i == 0)
+{
+_putchar('0');
+}
+if (i != 0)
+{
+_putchar(' ');
+_putchar((mul % 10 + '0'));
+}
+
+}
+else
+{
+_putchar((mul / 10) + '0');
+_putchar((mul % 10) + '0');
+}
 if (i < 9)
 {
-  _putchar(',');
+_putchar(',');
 _putchar(' ');
 }
 }
