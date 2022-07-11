@@ -28,11 +28,11 @@ mul = i * k;
 	 _putchar(' ');
 	 _putchar((mul % 10 + '0'));
        }
-     if (i < 9)
+     /* if (i < 9)
        {
 	 _putchar(',');	 
 	 _putchar(' ');
-	   }
+	 }*/
    }
  else
    {
