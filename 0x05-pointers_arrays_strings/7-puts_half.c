@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts-half - prints half of string
+ * puts_half - prints half of string
  * @str: a pointer to the string to print half of
  */
 void puts_half(char *str)
@@ -18,13 +18,13 @@ i++;
 lenght = i;
 if (lenght % 2 == 0)
 {
-newl = lenght/2;
+newl = lenght - (lenght / 2);
 }
 else
 {
-newl = (lenght - 1) / 2;
+newl = lenght - ((lenght - 1) / 2);
 }
-for (a = 0; a <= newl; a++)
+for (a = newl; a <= lenght; a++)
 {
 _putchar(str[a]);
 }
