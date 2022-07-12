@@ -25,6 +25,7 @@ newl = lenght - ((lenght - 1) / 2);
 }
 for (a = newl; a <= lenght; a++)
 {
+if (str[a] != '\0')
 _putchar(str[a]);
 }
 _putchar('\n');
