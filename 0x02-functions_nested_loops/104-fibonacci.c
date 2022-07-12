@@ -13,15 +13,15 @@ unsigned long int c = 1;
 unsigned long int k = 2;
 unsigned long int j;
 
-printf("%d, ", c);
-printf("%d, ", k);
-for (i = 1; i <= 98; i++)
+printf("%ld, ", c);
+printf("%ld, ", k);
+for (i = 1; i <= 96; i++)
 {
 j = c + k;
 c = k;
 k = j;
-printf("%d", j);
-if (1 < 98)
+printf("%ld", j);
+if (i < 96)
 {
 printf(", ");
 }
