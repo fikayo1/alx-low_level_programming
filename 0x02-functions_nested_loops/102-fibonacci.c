@@ -13,14 +13,14 @@ unsigned long int c = 1;
 unsigned long int k = 2;
 unsigned long int j;
 
-printf("%d, ", c);
-printf("%d, ", k);
+printf("%ld, ", c);
+printf("%ld, ", k);
 for (i = 1; i <= 50; i++)
 {
 j = c + k;
 c = k;
 k = j;
-printf("%llu, ", j);
+printf("%ld, ", j);
 }
 printf("\n");
 return (0);
