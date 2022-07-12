@@ -18,7 +18,7 @@ i++;
 lenght = i;
 if (lenght % 2 == 0)
 {
-newl = length/2;
+newl = lenght/2;
 }
 else
 {
