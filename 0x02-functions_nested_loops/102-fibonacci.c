@@ -20,7 +20,11 @@ for (i = 1; i <= 48; i++)
 j = c + k;
 c = k;
 k = j;
-printf("%ld, ", j);
+printf("%ld", j);
+if (i < 48)
+{
+printf(", ");
+}
 }
 printf("\n");
 return (0);
