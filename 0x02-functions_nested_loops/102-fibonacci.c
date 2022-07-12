@@ -15,7 +15,7 @@ unsigned long int j;
 
 printf("%ld, ", c);
 printf("%ld, ", k);
-for (i = 1; i <= 50; i++)
+for (i = 1; i <= 48; i++)
 {
 j = c + k;
 c = k;
