@@ -22,10 +22,10 @@ int main(void)
       k = j;
       if (j % 2 == 0)
 	{
-      sum += j
+	  sum += j;
 	}
     }
-  printf("%d", sum)
+  printf("%d", sum);
   printf("\n");
   return (0);
 }
