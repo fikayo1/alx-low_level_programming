@@ -8,7 +8,7 @@ void print_rev(char *s)
 int i;
 int sizearr;
 
-sizearr = sizeof(s) / sizeof(arr[0]);
+sizearr = sizeof(s) / sizeof(s[0]);
 for (i = sizearr; i > 0; i--)
 {
 _putchar(s[i]);
