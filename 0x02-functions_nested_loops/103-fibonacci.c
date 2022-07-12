@@ -24,7 +24,7 @@ if (j % 2 == 0)
 sum += j;
 }
 }
-printf("%d", sum);
+printf("%d", sum + 2);
 printf("\n");
 return (0);
 }
