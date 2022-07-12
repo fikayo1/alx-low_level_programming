@@ -6,10 +6,13 @@
 void print_rev(char *s)
 {
 int i;
-int sizearr;
+int a = 0;
 
-sizearr = sizeof(s) / sizeof(s[0]);
-for (i = sizearr; i > 0; i--)
+while (s[i] != '\0')
+{
+a++;
+}
+for (i = a; i > 0; i--)
 {
 _putchar(s[i]);
 }
