@@ -9,9 +9,9 @@
 int main(void)
 {
 int i;
-int c = 1;
-int k = 2;
-int j;
+unsigned long long int c = 1;
+unsigned long long int k = 2;
+unsigned long long int j;
 
 printf("%d, ", c);
 printf("%d, ", k);
@@ -20,7 +20,7 @@ for (i = 1; i <= 50; i++)
 j = c + k;
 c = k;
 k = j;
-printf("%d, ", j);
+printf("%llu, ", j);
 }
 printf("\n");
 return (0);
