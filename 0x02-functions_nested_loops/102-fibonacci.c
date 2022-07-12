@@ -9,9 +9,9 @@
 int main(void)
 {
 int i;
-unsigned long long int c = 1;
-unsigned long long int k = 2;
-unsigned long long int j;
+unsigned long int c = 1;
+unsigned long int k = 2;
+unsigned long int j;
 
 printf("%d, ", c);
 printf("%d, ", k);
