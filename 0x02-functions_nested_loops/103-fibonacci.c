@@ -8,12 +8,11 @@
 
 int main(void)
 {
-  int i;
+
   int c = 1;
   int k = 2;
   int j;
 
-  // printf("%d, ", c);
   printf("%d, ", k);
   while (c < 4000000)
     {
