@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * *_strcpy - copies string pointed to scr
- * @scr: source string
+ * @src: source string
  * @dest: a pointer pointing to destination address
  * Return: the pointer to dest
  *
  */
-char *_strcpy(char *dest, char *scr)
+char *_strcpy(char *dest, char *src)
 {
 int i = 0;
 
