@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- * _puts_recursion - prints a string
- * @s: a pointer to the string to be printed
+ * _puts_recursion - prints a string 
+ * @s: the memory locatio contain to be printed
  */
 void _puts_recursion(char *s)
 {
-if (*s)
+if (*s != '\0')
 {
-_puts_recursion(s + 1);
-_putchar(*s);
+_putchar(s);
+return;
 }
+_putchar(*s);
 }
