@@ -14,12 +14,17 @@ if (width < 1 || height < 1)
 {
 return (NULL);
 }
-arr = malloc(height * (sizeof(int)));
+arr = malloc(height * (sizeof(int *)));
+if (arr == NULL)
+{
+free(arr);
+return (NULL);
+}
 for (i = 0; i < height; i++)
 {
 for (j = 0; j < width; j++)
 {
-arr[j] = 0;
+arr[i][j] = 0;
 }
 }
 return (arr);
