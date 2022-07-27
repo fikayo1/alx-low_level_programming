@@ -35,7 +35,7 @@ news[a] = s1[a];
 }
 for (b = 0; b < j; b++)
 {
-news[(a + 1) + b] = s2[b];
+news[((a + 1) + b)] = s2[b];
 }
 return (news);
 }
