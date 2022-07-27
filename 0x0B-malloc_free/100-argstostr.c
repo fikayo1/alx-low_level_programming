@@ -11,7 +11,7 @@ char *argstostr(int ac, char **av)
 char *news;
 int c, i, j, ia;
 
-if (ac == 0 ||av == NULL)
+if (ac == 0 || av == NULL)
 {
 return (NULL);
 }
