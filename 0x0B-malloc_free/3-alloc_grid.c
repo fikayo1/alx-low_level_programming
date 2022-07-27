@@ -6,7 +6,7 @@
  * @height: the height of the arrya
  * Return: a pointer to the array
  */
-int **alloc_grid(int width, int height);
+int **alloc_grid(int width, int height)
 {
 int *arr;
 
