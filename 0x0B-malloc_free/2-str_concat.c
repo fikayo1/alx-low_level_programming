@@ -33,9 +33,9 @@ for (a = 0; a < i; a++)
 {
 news[a] = s1[a];
 }
-for (b = 0; b < j; b++)
+for (b = 0; b < j; b++, a++)
 {
-news[((a + 1) + b)] = s2[b];
+news[a] = s2[b];
 }
 return (news);
 }
