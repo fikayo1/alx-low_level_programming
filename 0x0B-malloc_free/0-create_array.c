@@ -15,7 +15,7 @@ if (size == 0)
 {
 return (NULL);
 }
-ar = malloc(size * sizeof(char));
+ar = malloc(size * sizeof(c));
 if (ar == NULL)
 {
 return (NULL);
@@ -23,6 +23,7 @@ return (NULL);
 while (i < size)
 {
 ar[i] = c;
+i++;
 }
 ar[i] = '\0';
 return (ar);
