@@ -26,7 +26,7 @@ if (n > w)
 {
 n = w;
 }
-ar = malloc((i + n) * sizeof(char));
+ar = malloc((sizeof(char) * (i + n));
 if (ar == NULL)
 {
 return (NULL);
