@@ -10,7 +10,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-  unsigned int i, j, k;
+unsigned int i, j, k;
 char *ar;
 
 i = strlen(s1);
@@ -21,18 +21,10 @@ return (NULL);
 }
 for (j = 0; s1[j] != '\0'; j++)
 {
-if (s1[j] == NULL)
-{
-s1[j] = "";
-}
 ar[j] = s1[j];
 }
 for (k = j; k <= (i + n); k++)
 {
-if (s2[(k - j)] == NULL)
-{
-s2[(k - j)] = "";
-}
 ar[k] = s2[k - j];
 }
 ar[k] = '\0';
