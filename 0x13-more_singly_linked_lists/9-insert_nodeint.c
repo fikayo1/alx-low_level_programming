@@ -25,15 +25,23 @@ for (i = 0; i < idx && curr; i++)
 {
 curr = curr->next;
 }
+
+if (curr == NULL && idx != 0)
+{
+return (NULL);
+}
+
 if (idx == 0)
 {
 new->next = *head;
 *head = new;
 }
+
 else
 {
 new->next = curr->next;
 curr->next = new;
 }
+
 return (new);
 }
