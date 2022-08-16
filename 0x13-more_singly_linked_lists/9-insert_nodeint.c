@@ -21,9 +21,12 @@ new->n = n;
 
 curr = *head;
 
+if (idx != 0)
+{
 for (i = 0; i < idx && curr; i++)
 {
 curr = curr->next;
+}
 }
 
 if (curr == NULL && idx != 0)
