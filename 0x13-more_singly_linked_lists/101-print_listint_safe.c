@@ -6,7 +6,7 @@
  *
  * Return: no return.
  */
-void free_listp(listp_t **head)
+void fre_listp(listp_t **head)
 {
 	listp_t *temp;
 	listp_t *curr;
@@ -54,7 +54,7 @@ size_t print_listint_safe(const listint_t *head)
 			if (head == add->p)
 			{
 				printf("-> [%p] %d\n", (void *)head, head->n);
-				free_listp(&hptr);
+				fre_listp(&hptr);
 				return (nnodes);
 			}
 		}
@@ -64,6 +64,6 @@ size_t print_listint_safe(const listint_t *head)
 		nnodes++;
 	}
 
-	free_listp(&hptr);
+	fre_listp(&hptr);
 	return (nnodes);
 }
