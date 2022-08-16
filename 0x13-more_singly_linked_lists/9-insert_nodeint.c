@@ -23,7 +23,7 @@ curr = *head;
 
 if (idx != 0)
 {
-for (i = 0; i < idx && curr; i++)
+for (i = 0; i < idx - 1 && curr; i++)
 {
 curr = curr->next;
 }
