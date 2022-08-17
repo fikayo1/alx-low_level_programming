@@ -20,6 +20,6 @@ h = curr->n;
 temp = curr->next;
 
 free(curr);
-*head = tem;
+*head = temp;
 return (h);
 }
