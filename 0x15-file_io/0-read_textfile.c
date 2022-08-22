@@ -32,7 +32,10 @@ return (0);
 out = read(fd, buf, letters);
 
 nwr = write(1, buf, out);
-
+if (nwr == -1)
+{
+return (0);
+}
 buf[letters] = '\0';
 
 
