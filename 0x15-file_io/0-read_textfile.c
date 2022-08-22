@@ -39,7 +39,7 @@ if (nwr == wr)
 {
 return (0);
 }
-buf[letters] = '\0';
+
 
 
 close(fd);
