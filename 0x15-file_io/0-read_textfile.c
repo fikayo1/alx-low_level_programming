@@ -30,7 +30,10 @@ return (0);
 }
 
 out = read(fd, buf, letters);
-
+if (out == wr)
+{
+return (0);
+}
 nwr = write(1, buf, out);
 if (nwr == wr)
 {
