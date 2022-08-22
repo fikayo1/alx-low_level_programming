@@ -34,7 +34,7 @@ if (out == wr)
 {
 return (0);
 }
-nwr = write(1, buf, out);
+nwr = write(STDOUT_FILENO, buf, out);
 if (nwr == wr)
 {
 return (0);
