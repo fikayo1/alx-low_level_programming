@@ -16,7 +16,7 @@ if (filename == NULL)
 return (-1);
 }
 
-while (text_content[i] != '\0')
+while (text_content[i])
 {
 count++;
 i++;
