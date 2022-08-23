@@ -19,7 +19,7 @@ if (fd == -1)
 {
 return (-1);
 }
-while(text_content[i])
+while (text_content[i])
 {
 i++;
 }
@@ -32,6 +32,6 @@ return (-1);
 }
 
 }
-close (fd);
+close(fd);
 return (1);
 }
