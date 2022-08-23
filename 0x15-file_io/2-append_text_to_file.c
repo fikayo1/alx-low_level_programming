@@ -13,7 +13,7 @@ if (filename == NULL)
 {
 return (-1);
 }
-fd = open(filename, O_APPEND);
+fd = open(filename, O_WRONLY | O_APPEND);
 
 if (fd == -1)
 {
@@ -32,6 +32,6 @@ return (-1);
 }
 
 }
-close(fd);
+close (fd);
 return (1);
 }
