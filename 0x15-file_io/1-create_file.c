@@ -21,18 +21,22 @@ while (text_content[i] != '\0')
 count++;
 i++;
 }
-
-fd = open(filename, O_CREAT, 0600);
+if (text_content == NULL)
+{
+text_content = "";
+}
+fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 
 if (fd == -1)
 {
 return (-1);
 }
-nwr = write(fd, text_content, count);
+nwr = write(fd, text_content, count + 1);
 if (nwr == err)
 {
 return (-1);
 }
-return (1);
+
 close(fd);
+return (1);
 }
