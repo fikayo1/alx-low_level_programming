@@ -19,12 +19,13 @@ if (fd == -1)
 {
 return (-1);
 }
+
+if (text_content)
+{
 while (text_content[i])
 {
 i++;
 }
-if (text_content)
-{
 nwr = write(fd, text_content, i);
 if (nwr == -1)
 {
