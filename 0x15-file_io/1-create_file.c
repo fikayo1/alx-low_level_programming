@@ -16,15 +16,17 @@ if (filename == NULL)
 return (-1);
 }
 
+if (text_content == NULL)
+{
+text_content = "";
+}
+
 while (text_content[i])
 {
 count++;
 i++;
 }
-if (text_content == NULL)
-{
-text_content = "";
-}
+
 fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 
 if (fd == -1)
