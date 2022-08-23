@@ -31,7 +31,7 @@ if (fd == -1)
 {
 return (-1);
 }
-nwr = write(fd, text_content, count + 1);
+nwr = write(fd, text_content, count);
 if (nwr == err)
 {
 return (-1);
