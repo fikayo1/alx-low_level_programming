@@ -10,7 +10,7 @@ size_t n = 0;
 
 if (h == NULL)
 {
-return (n)
+return (n);
 }
 
 while (h->prev != NULL)
