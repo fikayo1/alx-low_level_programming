@@ -11,19 +11,22 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 hash_node_t *kvp, *curr;
 unsigned long int size, index;
 int cmp;
-const char *target;
+char *target, *new_key;
 
 size = ht->size;
 index = key_index((unsigned char *)key, size);
-curr = ht[index];
+curr = ht->array[index];
 
-target = strdup(curr->value);
+new_key = strdup(key);
+if (new_key == NULL)
+	return (0);
+target = strdup(value);
 if (target == NULL)
-	return (0)
+	return (0);
 while (curr != NULL)
 {
 cmp = strcmp(curr->key, key);
-if cmp == 0
+if (cmp == 0)
 {
 free(curr->value);
 curr->value = target;
@@ -31,14 +34,14 @@ return (1);
 }
 }
 
-kvp = malloc(sizeof(hash_node_s));
+kvp = malloc(sizeof(hash_node_t));
 if (!kvp)
 return (0);
 
-kvp->key = key;
+kvp->key = new_key;
 kvp->value = target;
-kvp->next = ht[index];
+kvp->next = ht->array[index];
 
-ht[index] = kvp;
+ht->array[index] = kvp;
 return (1);
 }
