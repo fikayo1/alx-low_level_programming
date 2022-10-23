@@ -13,6 +13,8 @@ unsigned long int size, index;
 int cmp;
 char *target, *new_key;
 
+if (key == NULL || ht == NULL || value == NULL || key[0] == '\0')
+	return (0);
 size = ht->size;
 index = key_index((unsigned char *)key, size);
 curr = ht->array[index];
@@ -32,11 +34,12 @@ free(curr->value);
 curr->value = target;
 return (1);
 }
+curr = curr->next;
 }
 
 kvp = malloc(sizeof(hash_node_t));
 if (!kvp)
-return (0);
+	return (0);
 
 kvp->key = new_key;
 kvp->value = target;
