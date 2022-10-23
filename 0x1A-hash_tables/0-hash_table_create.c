@@ -14,15 +14,17 @@ table = malloc(sizeof(hash_table_t));
 if (size == 0)
 return (NULL);
 
-arr = malloc(sizeof(hash_node_t) * size);
-if (!arr)
+if (!table)
+{
+return (NULL);
+}
+
+table->array = malloc(sizeof(hash_node_t) * size);
+if (table->array = NULL)
 {
 free(table);
 return (NULL);
 }
-
-if (!table)
-return (NULL);
 
 while (i < size)
 {
